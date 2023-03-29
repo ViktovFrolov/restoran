@@ -1,0 +1,126 @@
+body{
+  margin: 0 0 0 0;
+
+}
+.conteiner{
+  margin: 0px 166px;
+}
+.header{
+  background-image: url(Fon.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+.header-line{
+  justify-content: space-around;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+.nav-item{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 25px;
+  transition: color 0.3s linear;
+}
+.nav-item:hover{
+  color: red;
+
+}
+.cart{
+  position: relative;
+  border-right: 1px solid rgb(241, 246, 242);
+  padding-right: 10px;
+  height: 50px;
+}
+.cart-img{
+  position: absolute;
+  top: 18px;
+  right: 7px;
+}
+
+.phoneText{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.num{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s linear;
+}
+.num:hover{
+  color: red;
+}
+.phoneHolder{
+  display: flex;
+  align-items: center;
+}
+.botton{
+  background-color: rgb(255, 119, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 18px 14px 18px;
+  font-weight: 700;
+  transition: color 0.3s linear;
+}
+
+.botton:hover{
+  background-color: rgb(255, 96, 0);
+
+}
+.header-down{
+  position: relative;
+}
+.header-title{
+  color: #d67e36;
+  font-size: 50px;
+  font-weight: 400;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  margin-top: 222px;
+
+}
+.potTitle{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-bottom: 12px;
+
+}
+.potTitle::after{
+  position:absolute;
+  content: '';
+  height: 2px;
+  width: 61px;
+  background-color: rgb(255, 255, 255);
+  top: 125px;
+  left: 310px;
+}
+.potTitle::before{
+  position:absolute;
+  content: '';
+  height: 2px;
+  width: 61px;
+  background-color: rgb(255, 255, 255);
+  top: 125px;
+  left: 62px;
+}
+.header-buttton{
+  background-color: #FF7400;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  padding: 14px 28px;
+  font-size: 14px;
+  font-weight: 700;
+
+  transition:background-color  10s linear; 
+}
+.header-buttton:hover{
+  background-color: rgb(255, 158, 0);
+}
