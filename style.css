@@ -119,8 +119,41 @@ body{
   font-size: 14px;
   font-weight: 700;
 
-  transition:background-color  10s linear; 
+  transition:background-color  10s linear;
 }
 .header-buttton:hover{
   background-color: rgb(255, 158, 0);
+}
+.card{
+
+  width: 349px;
+  box-shadow: 10px 10px 40px 20px #0000001A;
+  margin-right: 31px;
+  background-color: rgb(255, 255, 255);
+  margin-top: -80px;
+
+}
+.card-img{
+  display: flex;
+  justify-content: center;
+  padding-top: 31px;
+
+}
+.card-hed{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 400;
+}
+.card-desc{
+  text-align: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 400;
+}
+.classHolder{
+  display:flex;
+  justify-content: center;
+
 }
